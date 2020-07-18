@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Datos Personales</title>
+	<title>Pagina personal</title>
+	  <!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body class="cyan lighten-5">
+<nav>
+    <div class="navbar-fixed cyan lighten-1">
+      <a href="personal.html" class="brand-logo"><img src="logo.png"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li ><a href="personal.html">Menu Principal</a></li>
+        <li class="active"><a href="datos.html">Datos Personales</a></li>
+        <li ><a href="galeria.html">Galeria</a></li>
+        <li ><a href="aficiones.html">Aficiones</a></li>
+        <li ><a href="logros.html">Logros</a></li>
+        <li ><a href="metas.html">Metas</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+<div class="container center">
+	<h2 class="blue-text">Datos Personales</h2>
+	<div class="card-panel hoverable">
+  <h5 class="blue-text">Hola, mi nombre completo es Brayan Antonio de la Torre Lopez</h5>
+</div>
+<br>
+  <div class="card-panel hoverable">
+  <h5 class="blue-text">Naci el 21 de Noviembre de 1997 en Ocotlan, Jalisco en el hospital San Vicente aproximadamente a las 11:45 pm </h5>
+</div>
+  <br>
+  <div class="card-panel hoverable">
+  <h5 class="blue-text">Actualmente vivo en Poncitlan, Jalisco</h5>
+  <h6 class="blue-text">Galeria</h6>
+  <div class="container section">
+				<div class="row">
+					<div class="col s12">
+							<div class="carousel carousel-slider">
+						<a href="" class="carousel-item">
+							<img src="ponci.jpg">
+                         </a>
+							<a href="" class="carousel-item">
+							<img src="ponci2.png" >
+						</a>
+						<a href="" class="carousel-item">
+							<img src="ponci3.jpg" >
+						</a>
+					</div>
+					</div>
+				</div>
+  </div>
+</div>
+  <br>
+  <div class="card-panel hoverable">
+  <h5 class="blue-text">Mi pueblo es conocido por el tradicional pan llamado "Picon" que se realiza de diferentes maneras y sabores</h5>
+  <img src="picones.jpg" class="responsive-img " width="500">
+  </div>
+
+	<!--JavaScript at end of body for optimized loading-->
+	<script type="text/javascript" src="js/materialize.min.js"></script>	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+		  <script>
+  	document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, {height: 570
+    });
+  });
+  </script>
+</body>
+</html>
